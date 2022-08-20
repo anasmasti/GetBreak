@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getbreak/components/home/section_title.dart';
 import 'package:getbreak/components/shared/card.dart';
 
 class Body extends StatefulWidget {
@@ -10,7 +11,7 @@ class Body extends StatefulWidget {
 
 class _BodyState extends State<Body> {
   @override
-  Widget build(BuildContext contect) {
+  Widget build(BuildContext context) {
     return Column(
       children: [
         const SizedBox(
@@ -19,7 +20,10 @@ class _BodyState extends State<Body> {
         Container(
           margin: const EdgeInsets.all(5),
           child: const MainCard(),
-        )
+        ),
+        Container(
+            margin: const EdgeInsets.symmetric(horizontal: 8),
+            child: const SectionTitle())
       ],
     );
   }

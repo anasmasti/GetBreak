@@ -15,7 +15,7 @@ class Home extends StatefulWidget {
 /// Returns Widget to use it inside 'Home' the StatefulWidget
 class _HomeState extends State<Home> {
   @override
-  Widget build(BuildContext contect) {
+  Widget build(BuildContext context) {
     return Scaffold(
       /// Author anasmasti
       /// Returns custom list view with 'Welcome to GetBreak' on the center of the screen
