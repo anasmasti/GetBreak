@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getbreak/components/home/body.dart';
 import 'package:getbreak/components/home/header.dart';
 
 /// Autor anasmasti
@@ -13,7 +14,6 @@ class Home extends StatefulWidget {
 /// Autor anasmasti
 /// Returns Widget to use it inside 'Home' the StatefulWidget
 class _HomeState extends State<Home> {
-  final _mainTitle = 'GetBreak';
   @override
   Widget build(BuildContext contect) {
     return Scaffold(
@@ -39,136 +39,7 @@ class _HomeState extends State<Home> {
             floating: true,
             snap: true,
           ),
-          SliverList(
-              delegate: SliverChildListDelegate([
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            const Text(
-              'Welcome to',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-            Text(
-              _mainTitle,
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 40,
-                  color: Colors.purple[700]),
-            ),
-          ]))
+          SliverList(delegate: SliverChildListDelegate([const Body()]))
         ],
       ),
     );
