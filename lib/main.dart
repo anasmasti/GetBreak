@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:getbreak/pages/home/home_page.dart';
+import 'package:getbreak/screens/home/home.dart';
 
 void main() {
   runApp(const MyApp());
