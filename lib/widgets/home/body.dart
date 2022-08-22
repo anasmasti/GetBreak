@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:getbreak/components/home/section_title.dart';
-import 'package:getbreak/components/shared/card.dart';
+import 'package:getbreak/widgets/home/section_title.dart';
+import 'package:getbreak/widgets/shared/card.dart';
 
 class Body extends StatefulWidget {
   const Body({Key? key}) : super(key: key);

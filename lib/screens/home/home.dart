@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:getbreak/components/home/body.dart';
-import 'package:getbreak/components/home/header.dart';
+import 'package:getbreak/widgets/home/body.dart';
+import 'package:getbreak/widgets/home/header.dart';
 
 /// Autor anasmasti
 /// Home class an StatefulWidget
