@@ -20,10 +20,12 @@ class _MainCardState extends State<MainCard> {
         ClipRRect(
           borderRadius: const BorderRadius.all(Radius.circular(15)),
           child: Image.network(
-            'https://w0.peakpx.com/wallpaper/171/224/HD-wallpaper-coffee-cup-bg-coffee-black-abstract-minimalism.jpg',
+            'https://data.whicdn.com/images/344390001/original.jpg?t=1590001502',
             fit: BoxFit.cover,
             height: widget.height,
             width: widget.width,
+            color: Colors.black.withOpacity(.34),
+            colorBlendMode: BlendMode.multiply,
           ),
         ),
         SizedBox(

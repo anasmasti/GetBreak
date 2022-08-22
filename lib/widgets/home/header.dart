@@ -16,9 +16,11 @@ class _HeaderState extends State<Header> {
       child: Stack(
         children: <Widget>[
           Image.network(
-            'https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/2021-02/weather1_0.jpg',
+            'https://ukhsa.blog.gov.uk/wp-content/uploads/sites/33/2015/05/sky-518792_1280-e1593173211791.jpg',
             fit: BoxFit.cover,
             width: MediaQuery.of(context).size.width,
+            color: Colors.black.withOpacity(.2),
+            colorBlendMode: BlendMode.multiply,
           ),
         ],
       ),

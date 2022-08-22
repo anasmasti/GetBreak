@@ -20,11 +20,11 @@ class _BodyState extends State<Body> {
         Container(
           margin: const EdgeInsets.all(5),
           child: MainCard(
-              height: 100.0,
+              height: 120.0,
               width: MediaQuery.of(context).size.width.toDouble()),
         ),
         const SizedBox(
-          height: 18,
+          height: 10,
         ),
         const Section(),
         const SizedBox(
