@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:getbreak/widgets/home/section_list.dart';
 import 'package:getbreak/widgets/home/section_title.dart';
 import 'package:getbreak/widgets/shared/card.dart';
 
@@ -19,11 +20,17 @@ class _BodyState extends State<Body> {
         ),
         Container(
           margin: const EdgeInsets.all(5),
-          child: const MainCard(),
+          child: MainCard(
+              height: 100.0,
+              width: MediaQuery.of(context).size.width.toDouble()),
+        ),
+        const SizedBox(
+          height: 18,
         ),
         Container(
             margin: const EdgeInsets.symmetric(horizontal: 8),
-            child: const SectionTitle())
+            child: const SectionTitle()),
+        const SectionList()
       ],
     );
   }
