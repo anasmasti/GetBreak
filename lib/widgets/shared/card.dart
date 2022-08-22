@@ -41,7 +41,7 @@ class _MainCardState extends State<MainCard> {
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
-                        fontWeight: FontWeight.bold)),
+                        fontWeight: FontWeight.w500)),
                 Text('100 km de toi',
                     style: TextStyle(
                       color: Colors.white,
