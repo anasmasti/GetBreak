@@ -31,6 +31,21 @@ class _BodyState extends State<Body> {
           height: 18,
         ),
         const Section(),
+        Padding(
+          padding: const EdgeInsets.all(18),
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              ElevatedButton(
+                onPressed: () => {},
+                child: Column(
+                  children: const [Text('See on Map')],
+                ),
+              )
+            ],
+          ),
+        )
       ],
     );
   }

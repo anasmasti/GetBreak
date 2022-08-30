@@ -28,7 +28,7 @@ class _MainLayoutState extends State<MainLayout> {
           ],
           backgroundColor: Colors.blue,
           shape: const ContinuousRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(65))),
+              borderRadius: BorderRadius.vertical(bottom: Radius.circular(65))),
           flexibleSpace: FlexibleSpaceBar(
             title: Text(widget.headerTitle),
             background: const Header(),

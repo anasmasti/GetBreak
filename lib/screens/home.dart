@@ -20,6 +20,6 @@ class _HomeState extends State<Home> {
 
         /// Author anasmasti
         /// Returns custom list view with 'Welcome to GetBreak' on the center of the screen
-        body: MainLayout(body: [Body()], headerTitle: 'Maarif'));
+        body: MainLayout(body: [Body()], headerTitle: 'Casablanca, Maarif.'));
   }
 }
